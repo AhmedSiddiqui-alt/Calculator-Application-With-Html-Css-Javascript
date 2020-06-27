@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="mainDiv">
+   <div>
+    <input class="inputField" type="text" name="" id="calculate" >   
+   </div>
+   <div>
+    <input class="inputField" type="text" name="" id="output"> 
+        
+   </div>
+   <div class="flexDisplayDiv">
+
+    <div class="leftSideDiv">
+        <div class="leftSideAllDiv">
+            <button class="btnStyleLeftUnique" onclick="clearInputField()">C</button>
+            <button class="btnStyleLeft" onclick="calculateSquare()">x<sup>2</sup></button>
+            <button class="btnStyleLeft"onclick="calculateSqrt()">√</button>
+        </div>
+        <div class="leftSideAllDiv">
+            <button class="btnStyleLeft" onclick="getNumberOrSign('7')">7</button>
+            <button class="btnStyleLeft" onclick="getNumberOrSign('8')">8</button>
+            <button class="btnStyleLeft" onclick="getNumberOrSign('9')">9</button>
+        </div>
+        <div class="leftSideAllDiv">
+            <button class="btnStyleLeft" onclick="getNumberOrSign('4')">4</button>
+            <button class="btnStyleLeft" onclick="getNumberOrSign('5')">5</button>
+            <button class="btnStyleLeft" onclick="getNumberOrSign('6')">6</button>
+        </div>
+        <div class="leftSideAllDiv">
+            <button class="btnStyleLeft" onclick="getNumberOrSign('1')">1</button>
+            <button class="btnStyleLeft" onclick="getNumberOrSign('2')">2</button>
+            <button class="btnStyleLeft" onclick="getNumberOrSign('3')">3</button>
+        </div>
+        <div class="leftSideAllDiv0">
+            <button class="btnStyleLeft" onclick="getNumberOrSign('0')">0</button>
+            
+        </div>
+       </div>
+       <div class="RightSideDiv">
+        <div class="RightSideAllDiv">
+            <button class="btnStyleRight" onclick="getNumberOrSign('÷')">÷</button>
+        </div>
+        <div class="RightSideAllDiv">
+            <button class="btnStyleRight" onclick="getNumberOrSign('x')">x</button>
+        </div>
+        <div class="RightSideAllDiv">
+            <button class="btnStyleRight" onclick="getNumberOrSign('-')">-</button>
+        </div>
+        <div class="RightSideAllDiv">
+            <button class="btnStyleRight" onclick="getNumberOrSign('+')">+</button>
+        </div>
+        <div class="RightSideAllDiv">
+            <button class="btnStyleRightUnique"onclick="doCalculation()" >=</button>
+        </div>
+       </div>
+
+   </div>
+   </div> 
+</body>
+<script src="./app.js"></script>
+</html>

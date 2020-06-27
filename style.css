@@ -1,0 +1,89 @@
+
+.mainDiv
+{
+margin: 0 auto;    
+width: 520px;
+height: 680px;
+background-color: black;
+}
+.inputField{
+    width: 520px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    font-size: 30px;
+    
+    
+}
+.flexDisplayDiv{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.btnStyleLeft{
+border-radius: 60px;
+height: 110px;
+width: 110px;
+border: none;
+outline-style:none;
+font-size: 20px;
+
+}
+.btnStyleLeftUnique{
+    border: 2px solid lightblue;
+    border-radius: 60px;
+    border: none;
+    height: 110px;
+    width: 110px;
+    background-color: black;
+    color: white;  
+    outline-style:none;
+    font-size: 20px;
+}
+
+.leftSideAllDiv0{
+margin: 5px;
+
+}
+.leftSideDiv
+{
+    
+    background: lightblue;
+    width: 400px;
+}
+.RightSideDiv
+{
+    background-color: white;
+    
+}
+.leftSideAllDiv
+{
+margin: 5px;
+}
+.RightSideAllDiv{
+margin: 42px 10px 0 0;
+
+
+}
+.btnStyleRight
+{
+    font-size: 20px;
+width: 110px;
+height: 80px;
+background-color: white;
+border: none;
+outline-style:none;
+}
+.btnStyleRightUnique{
+    font-size: 20px;
+    width: 70px;
+    width: 110px;
+height: 80px;
+height: 50px;
+background-color: black;
+color: white;
+outline-style:none;
+}
